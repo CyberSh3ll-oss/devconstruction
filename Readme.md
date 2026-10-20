@@ -66,8 +66,7 @@
 │                                                                          │
 ╰──────────────────────────────────────────────────────────────────────────╯
 
-└─$ █
-I'm Vaishnav Rajeev — a B.Tech Cyber Security student at Chinmaya Vishwa Vidhyapeeth University (Class of 2028), driven by a mission to protect society and secure enterprise infrastructure.
+└─$ █I'm Vaishnav Rajeev — a B.Tech Cyber Security student at Chinmaya Vishwa Vidhyapeeth University (Class of 2028), driven by a mission to protect society and secure enterprise infrastructure.
 
 Beyond offensive security, OSINT, and red-team tooling, I believe in one brutal truth: a developer who can't ship real software for real people is just a script kiddie with opinions.
 
@@ -75,8 +74,6 @@ This repository is that proof. Dev Construction – Bill Maker is a production t
 
 🎯 No backend. No database. No tracking. No third-party SDKs. Just clean, self-contained HTML/CSS/JS that a non-technical user can open and operate from day one.
 
-<!-- ═══════════════════════════════════════════════════════════════════════ --><!-- THE PROBLEM — RECON REPORT --><!-- ═══════════════════════════════════════════════════════════════════════ --><h2 align="center">🎯 THE PROBLEM</h2><div align="center">
-diff
 @@ ⚠  PRE-DEPLOYMENT RECON  ⚠  @@
 
 -  ╔══════════════════════════════════════════════════════════════════╗
@@ -93,8 +90,7 @@ diff
 -  ║   SEVERITY :  🔴 HIGH (business operations impacted)             ║
 -  ║                                                                  ║
 -  ╚══════════════════════════════════════════════════════════════════╝
-</div><div align="center">
-diff
+
 @@ ✔  POST-DEPLOYMENT SOLUTION  ✔  @@
 
 +  ╔══════════════════════════════════════════════════════════════════╗
@@ -110,8 +106,7 @@ diff
 +  ║      ACCESS   :  Any modern browser, online or offline          ║
 +  ║                                                                  ║
 +  ╚══════════════════════════════════════════════════════════════════╝
-</div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --><!-- CORE FEATURES — MODULES --><!-- ═══════════════════════════════════════════════════════════════════════ --><h2 align="center">⚔️ CAPABILITIES</h2><div align="center">
+
 🟢 INPUT LAYER
 Feature	Description
 📅 Smart Date Picker	Native date input, auto-defaults to today. Formatted as DD/MM/YYYY on the bill.
@@ -132,9 +127,7 @@ Feature	Description
 ♿ Accessibility	Semantic labels, role="status" live regions, high-contrast :focus-visible outlines.
 📱 Responsive Layout	CSS Grid — single column on mobile, two-column (form + sticky preview) on desktop ≥ 900 px.
 🖨️ Typography	EB Garamond loaded via Google Fonts with graceful fallbacks for offline use.
-</div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --><!-- SYSTEM ARCHITECTURE --><!-- ═══════════════════════════════════════════════════════════════════════ --><h2 align="center">🏗️ ARCHITECTURE</h2><div align="center">
-ansi
+
 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓]
 [▓]                                                                      [▓]
 [▓]     USER BROWSER (100% CLIENT-SIDE — NO SERVER)                      [▓]
@@ -163,8 +156,7 @@ ansi
 [▓]     DATA FLOW:  Input → State → Canvas → Blob → Downloads folder     [▓]
 [▓]                                                                      [▓]
 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓]
-</div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --><!-- TECH ARSENAL --><!-- ═══════════════════════════════════════════════════════════════════════ --><h2 align="center">🧰 TECH ARSENAL</h2><div align="center">
+
 🟢 CORE STACK
 
 https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=00ff41
@@ -183,10 +175,6 @@ https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=0
 https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00ff41
 https://img.shields.io/badge/VS%20Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=00ff41
 
-</div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --><!-- DEPLOYMENT — HIT LIST --><!-- ═══════════════════════════════════════════════════════════════════════ --><h2 align="center">🚀 DEPLOYMENT</h2><div align="center">
-⚡ Deploy in 30 Seconds
-bash
 # OPTION 1 — Run it right now (nothing to install)
 git clone https://github.com/vaishnav-rajeev/dev-construction-billmaker.git
 cd dev-construction-billmaker
@@ -195,9 +183,7 @@ cd dev-construction-billmaker
 # OPTION 2 — Static hosting (GitHub Pages, Netlify, Vercel)
 # Rename the file to index.html, drop it in a repo,
 # enable Pages → live in ~60 seconds.
-</div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --><!-- USAGE — OPS MANUAL --><!-- ═══════════════════════════════════════════════════════════════════════ --><h2 align="center">📖 OPERATION MANUAL</h2>
-bash
+
 ┌──(user㉿client)-[~/billmaker]
 └─$ ./generate-bill --guide
 
@@ -227,9 +213,7 @@ bash
 │                                                                          │
 ╰──────────────────────────────────────────────────────────────────────────╯
 
-└─$ █
-<!-- ═══════════════════════════════════════════════════════════════════════ --><!-- ROADMAP — NEXT OPS --><!-- ═══════════════════════════════════════════════════════════════════════ --><h2 align="center">🗺️ ROADMAP</h2><div align="center">
-Status	Feature
+└─$ █Status	Feature
 ✅	Date picker + dynamic item rows
 ✅	Live canvas preview
 ✅	Auto-total with Indian number formatting
@@ -242,9 +226,7 @@ Status	Feature
 🔴	Optional PWA mode — install as a desktop app
 🔴	Bilingual output (English / Malayalam)
 🔴	GST auto-split (CGST / SGST breakdown)
-</div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --><!-- SECURITY NOTES --><!-- ═══════════════════════════════════════════════════════════════════════ --><h2 align="center">🛡️ SECURITY POSTURE</h2><div align="center">
-diff
+
 +  ✔  Zero server-side code — nothing to attack remotely
 +  ✔  Zero third-party SDKs — no data leakage to analytics
 +  ✔  Zero cookies, zero storage, zero tracking
@@ -256,10 +238,7 @@ diff
 
 -  ⚠  Not intended for multi-tenant deployment without
 -     refactoring to a backend + auth layer.
-</div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --><!-- CONTACT — SECURE CHANNEL --><!-- ═══════════════════════════════════════════════════════════════════════ --><h2 align="center">🌐 SECURE CHANNEL</h2><div align="center"><a href="https://www.linkedin.com/in/vaishnav-rajeev-304646377/"> <img src="https://img.shields.io/badge/LinkedIn-Vaishnav%20RAJEEV-0A66C2?style=for-the-badge&logo=linkedin&logoColor=00ff41&labelColor=000000"/> </a> <a href="https://instagram.com/vaishnav.wav"> <img src="https://img.shields.io/badge/Instagram-vaishnav.wav-E4405F?style=for-the-badge&logo=instagram&logoColor=00ff41&labelColor=000000"/> </a></div>
-<div align="center">
-bash
+
 ┌──(vaishnav㉿cvv)-[~/billmaker]
 └─$ echo "Real security is real software — not just theory." | tee -a mission.log
 Real security is real software — not just theory.
@@ -267,25 +246,15 @@ Real security is real software — not just theory.
 ┌──(vaishnav㉿cvv)-[~/billmaker]
 └─$ sudo shutdown -h now
 [sudo] password for vaishnav: █
-</div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --><!-- GLITCH FOOTER --><!-- ═══════════════════════════════════════════════════════════════════════ --><div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,50:000000,100:00ff41&height=140&section=footer&text=%5B+END+OF+TRANSMISSION+%5D&fontSize=22&fontColor=00ff41&animation=blinking"/>
-diff
-- "The quieter you become, the more you are able to hear." — Kali Linux
-+ "Ship real software. Secure it. Then talk." — Vaishnav
-<sub>⚡ <i>Bill generated · Data sealed · Operator offline.</i> ⚡</sub>
 
-</div>
-<!-- ▓▒░ EOF ░▒▓ -->
-text
 
 ---
 
-## 💡 Quick Tips Before You Push
+## 💡 Quick Reminders Before You Push
 
-1. **Rename the repo** to something clean like `dev-construction-billmaker` or `billmaker`.
-2. **Rename the HTML file** to `index.html` so GitHub Pages (or any static host) can serve it directly — then your README can include a "🔴 LIVE DEMO" badge pointing to the Pages URL.
-3. **Add screenshots** — the bill canvas output and the form UI. Insert an image block right after the "CAPABILITIES" section: `![preview](./screenshots/bill-preview.jpg)`. Recruiters **love** seeing real output.
-4. **Optionally add a license file** (MIT is fine for a client tool) so people know they can use it freely.
-5. **Add a live demo link** to the top of the README once you have GitHub Pages enabled — this is the single biggest credibility booster for a client-tool repo.
+1. **Rename the HTML file** to `index.html` — enables GitHub Pages one-click demo.
+2. **Add screenshots** after the CAPABILITIES section: `![preview](./screenshots/bill-preview.jpg)`
+3. **Enable GitHub Pages** → Settings → Pages → Deploy from branch → `main` → `/root`. Your demo URL becomes `https://vaishnav-rajeev.github.io/dev-construction-billmaker/` — drop it as a badge next to STATUS.
+4. **Add an MIT LICENSE file** — it's a client tool, but open-sourcing it makes your GitHub look confident and professional.
 
-This README tells a **story**: your identity → the problem → the solution → the engineering → the mission. That's exactly the pattern recruiters and hiring managers look for when they click your GitHub. 🔥
+Done. Copy the code block above and paste it into your repo's `README.md`. 🔥
