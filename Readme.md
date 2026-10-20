@@ -247,14 +247,4 @@ Real security is real software — not just theory.
 └─$ sudo shutdown -h now
 [sudo] password for vaishnav: █
 
-
----
-
-## 💡 Quick Reminders Before You Push
-
-1. **Rename the HTML file** to `index.html` — enables GitHub Pages one-click demo.
-2. **Add screenshots** after the CAPABILITIES section: `![preview](./screenshots/bill-preview.jpg)`
-3. **Enable GitHub Pages** → Settings → Pages → Deploy from branch → `main` → `/root`. Your demo URL becomes `https://vaishnav-rajeev.github.io/dev-construction-billmaker/` — drop it as a badge next to STATUS.
-4. **Add an MIT LICENSE file** — it's a client tool, but open-sourcing it makes your GitHub look confident and professional.
-
 Done. Copy the code block above and paste it into your repo's `README.md`. 🔥
